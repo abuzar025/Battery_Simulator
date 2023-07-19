@@ -1,0 +1,15 @@
+==754724== Memcheck, a memory error detector
+==754724== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==754724== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==754724== Command: ./test_batt_update set_display_from_batt()\ level\ 2
+==754724== Parent PID: 754723
+==754724== 
+==754724== 
+==754724== HEAP SUMMARY:
+==754724==     in use at exit: 0 bytes in 0 blocks
+==754724==   total heap usage: 1 allocs, 1 frees, 4 bytes allocated
+==754724== 
+==754724== All heap blocks were freed -- no leaks are possible
+==754724== 
+==754724== For lists of detected and suppressed errors, rerun with: -s
+==754724== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
